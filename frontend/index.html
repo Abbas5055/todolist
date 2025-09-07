@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Minimalist Todo — Clean & Delightful</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <h1>Minimalist Todo</h1>
+      <p class="subtitle">Focus on what matters. Capture, act, clear.</p>
+    </header>
+
+    <section class="create">
+      <input id="newTodo" placeholder="Add a new task and press Enter" autofocus />
+    </section>
+
+    <section class="list" id="todoList">
+      <!-- todos injected here -->
+    </section>
+
+    <footer class="footer">
+      <span id="stats">0 items</span>
+      <button id="clearDone">Clear completed</button>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
